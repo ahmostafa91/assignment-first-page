@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Social Hub</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <main class="container">
+            <!--start header-->
+            <header>
+                <nav class="f-nav inner-container">
+                    <img class="logo" src="images/logo.png" alt="logo" />
+                    <a href="#" class="f-nav-links active-f-nav">Analytics</a>
+                    <a href="#" class="f-nav-links">Campaigns</a>
+                    <a href="#" class="f-nav-links">Engagement</a>
+                    <a href="#" class="f-nav-links">Role &amp; Permissions</a>
+                    <a href="#" class="f-nav-links">Organization</a>
+                    <!--nots-->
+                    <span class="nots">
+                        <i class="far fa-bell fa-sm badge"></i>
+                        <i class="far fa-envelope fa-sm badge"></i>
+                    </span>
+                </nav>
+                <!--responsive nav-->
+                <nav class="header">
+                    <div class="top">
+                      <img class="logo" src="images/logo.png" alt="logo" />
+                      <a href="#" class="navLink">&#9776;</a>
+                      <!--nots-->
+                      <span class="nots">
+                        <i class="far fa-bell fa-sm badge"></i>
+                        <i class="far fa-envelope fa-sm badge"></i>
+                      </span>
+                    </div>
+
+                    <div class="nav">
+                      <ul>
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#">Campaigns</a></li>
+                        <li><a href="#">Engagement</a></li>
+                        <li><a href="#">Role & Permissions</a></li>
+                        <li><a href="#">Organization</a></li>
+                      </ul>
+                    </div>
+                </nav>
+                <!--navigator -->
+                <div class="navigator inner-container">
+                    <a href="#" class="s-nav-links active-s-nav">Dashboard</a>
+                    <a href="#" class="s-nav-links">Streams</a>
+                    <a href="#" class="s-nav-links">Comparative</a>
+                    <a href="#" class="s-nav-links">Influencers</a>
+                </div>
+            </header>
+            <!--end header-->
+
+            <!--start head info & options-->
+            <div class="head-info inner-container">
+                <!--title-->
+                <span class="head-title">
+                    <i class="fas fa-bars fa-2x"></i>
+                    <span class="head-name">Stream Monitoring Dashboard</span>
+                </span>
+                <!--options-->
+                <span class="options">
+                    <!--option1-->
+                    <a class="add">
+                        <i class="fas fa-plus"></i>
+                        <span class="title">Add</span>
+                    </a>
+                    <!--option2-->
+                    <a class="export">
+                        <i class="fas fa-share-square"></i>
+                        <span class="title">Export</span>
+                    </a>
+                    <!--option3-->
+                    <a class="data">
+                        <i class="far fa-calendar-alt"></i>
+                        <span class="title">Data</span>
+                        <i class="fas fa-sort-down"></i>
+                    </a>
+                    <!--option4-->
+                    <a class="filter">
+                        <i class="fas fa-filter"></i>
+                        <span class="title">Filter by platform</span>
+                        <i class="fas fa-sort-down"></i>
+                    </a>
+                </span>
+                <!--responsive options-->
+                <span class="res-options">
+                    <a class="dropdown-toggle" href="#" title="Menu">
+                        Menu
+                        <i class="fas fa-sort-down"></i>
+                    </a>
+                    <ul class="dropdown">
+                        <li><a href="#">Add</a></li>
+                        <li><a href="#">Export</a></li>
+                        <li><a href="#">Data</a></li>
+                        <li><a href="#">Filer by platform</a></li>
+                    </ul>
+                </span>
+            </div>
+            <!--end head info & options-->
+
+            <!--start main content-->
+            <div class="main">
+                <!--select box-->
+                <section class="select-box inner-container">
+                    <!--box 1-->
+                    <label class="select-title">
+                        Stream 
+                        <select class="classic">
+                            <option>Vodafone</option>
+                            <option>Orange</option>
+                            <option>Etisalat</option>
+                        </select>
+                    </label>
+                    <!--box 2-->
+                    <label class="select-title">
+                        Filter 
+                        <select class="classic">
+                            <option>None</option>
+                            <option>Item 1</option>
+                            <option>Item 2</option>
+                            <option>Item 3</option>
+                        </select>
+                    </label>
+                </section>
+                <!--page content-->
+                <section class="page-content inner-container">
+                    <!--box1-->
+                    <article class="box-content">
+                        <h3>
+                            <i class="fab fa-twitter-square fa-sm"></i>
+                            Twitter Sentiment
+                        </h3>
+                        <p>
+                            Last month  Aggregated by Day
+                        </p>
+                        <div class="setting">
+                            <p><i class="fas fa-cog fa-sm"></i> Setting</p>
+                            <p><i class="fas fa-redo-alt fa-sm"></i> Reload</p>
+                            <p><i class="far fa-trash-alt fa-sm"></i> Delete</p>
+                        </div>
+                        <img class="prog1" src="images/prog1.png" alt="diagram" />
+                        <div class="info">
+                            <p class="positive">Positive</p>
+                            <p class="netural">Netural</p>
+                            <p class="negative">Negative</p>
+                        </div>
+                    </article>
+                    <!--box2-->
+                    <article class="box-content over">                        
+                        <div class="social-info">
+                            <!--box t1-->
+                            <div class="box hide">
+                                <h3>
+                                    <i class="fab fa-twitter-square fa-sm"></i>
+                                    Tweets Count
+                                    <i class="fas fa-bars fa-sm accordion"></i>
+                                </h3>
+                                <p>Last month</p>
+                                <table>
+                                    <tr class="tdh">
+                                        <td>Total</td>
+                                        <td>Change during last week</td> 
+                                    </tr>
+                                    <tr>
+                                        <td class="tdb">68.934 k</td>
+                                        <td class="tdg">300 <i class="fas fa-long-arrow-alt-up fa-sm"></i></td>
+                                    </tr>
+                                </table>                      
+                            </div>
+                            <!--box t2-->
+                            <div class="box hide">
+                                <h3 class="fb">
+                                    <i class="fab fa-facebook-square fa-sm"></i>
+                                    FB Comments Count
+                                    <i class="fas fa-bars fa-sm accordion"></i>
+                                </h3>
+                                <p>Last month</p>
+                                <table>
+                                    <tr class="tdh">
+                                        <td>Total</td>
+                                        <td>Change during last week</td> 
+                                    </tr>
+                                    <tr>
+                                        <td class="tdb">61.600 k</td>
+                                        <td class="tdg">150 <i class="fas fa-long-arrow-alt-up fa-sm"></i></td>
+                                    </tr>
+                                </table> 
+                            </div>
+                            <!--box t3-->
+                            <div class="box hide">
+                                <h3>
+                                    <i class="fab fa-twitter-square fa-sm"></i>
+                                    Tweets Count
+                                    <i class="fas fa-bars fa-sm accordion"></i>
+                                </h3>
+                                <p>Last month</p>
+                                <table style="width:100%">
+                                    <tr class="tdh">
+                                        <td>Total</td>
+                                        <td>Change during last week</td> 
+                                    </tr>
+                                    <tr>
+                                        <td class="tdb">60.834 k</td>
+                                        <td class="tdg">200 <i class="fas fa-long-arrow-alt-up fa-sm"></i></td>
+                                    </tr>
+                                </table> 
+                            </div>
+                        </div>
+                    </article>
+                    <!--box3-->
+                    <article class="box-content">
+                        <h3>
+                            <i class="fab fa-twitter-square fa-sm"></i>
+                            Map Chart Widget
+                            <i class="fas fa-bars fa-sm flotR"></i>
+                        </h3>
+                        <p>
+                            Last month  Aggregated by Day
+                        </p>
+                        <img class="map" src="images/map.png" alt="map" />
+                    </article>
+                    <!--box4-->
+                    <article class="box-content">
+                        <h3>
+                            <i class="fab fa-facebook-square fa-sm"></i>
+                            FB Sentiment
+                            <i class="fas fa-bars fa-sm flotR"></i>
+                        </h3>
+                        <p>
+                            Last month  Aggregated by Day
+                        </p>
+                        <img class="prog2" src="images/prog2.png" alt="diagram" />
+                        <div class="info">
+                            <p class="positive">Positive</p>
+                            <p class="netural">Netural</p>
+                            <p class="negative">Negative</p>
+                        </div>
+                    </article>
+                </section>
+            </div>
+            <!--end main content-->
+        </main>
+        <script src="js/jq/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
