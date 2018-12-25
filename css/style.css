@@ -495,6 +495,16 @@ select.classic:focus {
         display: none;
     }
 
+    .box-content .setting {
+        width: 17%;
+        height: 27%;
+        text-align: center;
+    }
+
+    .box-content .setting p {
+        padding: 10px 0 0;
+    }
+
 }
 
 /*for md screen*/
