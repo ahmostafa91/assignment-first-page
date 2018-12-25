@@ -144,7 +144,7 @@
                             <p><i class="fas fa-redo-alt fa-sm"></i> Reload</p>
                             <p><i class="far fa-trash-alt fa-sm"></i> Delete</p>
                         </div>
-                        <img class="prog1" src="images/prog1.png" alt="diagram" />
+                        <canvas id="myCanvas" width="80%" height="60%"></canvas>
                         <div class="info">
                             <p class="positive">Positive</p>
                             <p class="netural">Netural</p>
@@ -223,7 +223,7 @@
                         <p>
                             Last month  Aggregated by Day
                         </p>
-                        <img class="map" src="images/map.png" alt="map" />
+                        <div id="chartdiv"></div>
                     </article>
                     <!--box4-->
                     <article class="box-content">
@@ -235,7 +235,7 @@
                         <p>
                             Last month  Aggregated by Day
                         </p>
-                        <img class="prog2" src="images/prog2.png" alt="diagram" />
+                        <canvas id="canvas2"></canvas>
                         <div class="info">
                             <p class="positive">Positive</p>
                             <p class="netural">Netural</p>
@@ -246,6 +246,11 @@
             </div>
             <!--end main content-->
         </main>
+        <script src="https://www.amcharts.com/lib/4/core.js"></script>
+        <script src="https://www.amcharts.com/lib/4/maps.js"></script>
+        <script src="https://www.amcharts.com/lib/4/geodata/worldLow.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
         <script src="js/jq/jquery.min.js"></script>
         <script src="js/main.js"></script>
     </body>

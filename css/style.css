@@ -266,10 +266,10 @@ select.classic:focus {
     color: var(--icon-color);
 }
 
-.box-content .prog1 {
-    max-width: 57%;
-    margin: 0 0 0 20%;
-    display: block;
+#myCanvas {
+    width: 70% !important;
+    height: 60% !important;
+    margin: 2% 0 0 8%;
 }
 
 .box-content .info {
@@ -373,18 +373,17 @@ select.classic:focus {
 
 /*box3*/
 
-.box-content .map {
-    max-width: 80%;
-    margin: 5% 0 0 10%;
-    display: block;
+#chartdiv {
+    height: 60%;
+    padding-top: 10px;
 }
 
 /*box4*/
 
-.prog2 {
-    max-width: 55%;
-    margin: 5% 0 0 15%;
-    display: block;
+#canvas2 {
+    width: 85% !important;
+    height: 70% !important;
+    margin: 2% 0 0 4%;
 }
 
 /*end main content*/
